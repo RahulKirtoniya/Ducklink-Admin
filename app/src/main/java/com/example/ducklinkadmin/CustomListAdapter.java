@@ -31,7 +31,7 @@ public class CustomListAdapter extends ArrayAdapter<String> {
         TextView personName = listItem.findViewById(R.id.personName);
         personName.setText(currentUser);
 
-        // If you have additional TextViews in your list item layout, you can bind them here
+        
 
         return listItem;
     }
